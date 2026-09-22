@@ -1,0 +1,19 @@
+/*index.css => 웹사이트 전체 기본 디자인
+*/
+
+/*
+<html>
+  <body>
+
+    여기 웹사이트
+
+  </body>
+</html>
+ 
+margin: 0; =>브라우저가 웹사이트가장자리에 기본여백 넣은 거 제거
+font-family => 기본 글꼴 설정
+*/
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}

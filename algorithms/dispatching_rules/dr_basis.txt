@@ -1,0 +1,15 @@
+machine_available_time
+job_available_time
+next_operation_index
+
+현재 Job의 다음 Operation 가져오기
+↓
+processing_time 가져오기
+↓
+start_time = max(Job 가능시간, Machine 가능시간)
+↓
+end_time 계산
+↓
+ScheduleEntry 생성
+↓
+Machine / Job / Operation index 상태 갱신

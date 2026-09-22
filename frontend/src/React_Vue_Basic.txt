@@ -1,0 +1,17 @@
+HTML
+→ 화면 구조
+
+CSS
+→ 디자인
+
+JavaScript
+→ 동작
+
+React
+=> 자바스크립트 이용해서 화면을 편하게 만드는 라이브러리. 
+
+
+main.jsx의 역할
+1. React 실행
+2. App.jsx 불러오기
+3. index.html의 root 영역에 App 화면 그리기. 

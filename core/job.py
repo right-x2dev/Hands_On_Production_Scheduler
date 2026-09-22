@@ -4,6 +4,7 @@ class Job:
     def __init__(self, job_id, operations):
         self.job_id = job_id
         self.operations = operations
+        self.due_date = due_date
 
     def get_operations(self):
         return self.operations
@@ -15,6 +16,7 @@ class Job:
         return (
             f"Job("
             f"id={self.job_id}, "
+            f"due_date={self.due_date}, "
             f"operations={self.operations}"
             f")"
         )

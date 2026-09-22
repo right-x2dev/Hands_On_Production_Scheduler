@@ -14,6 +14,7 @@ def create_sample_instance():
     # 2. Job 1
     job1 = Job(
         job_id="J1",
+        due_date = 8,
         operations=[
             Operation(
                 operation_id="O11",
@@ -35,6 +36,7 @@ def create_sample_instance():
     # 3. Job 2
     job2 = Job(
         job_id="J2",
+        due_date = 10,
         operations=[
             Operation(
                 operation_id="O21",
@@ -56,6 +58,7 @@ def create_sample_instance():
     # 4. Job 3
     job3 = Job(
         job_id="J3",
+        due_date = 12,
         operations=[
             Operation(
                 operation_id="O31",
